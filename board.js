@@ -57,9 +57,8 @@ class Board {
     for (let row = 0; row < gridRows; row++) {
       for (let col = 0; col < gridCols; col++) {
         if (this.grid[row][col] !== 0) {
-          maxHeight = ROWS - row
+          maxHeight = Math.max(maxHeight, ROWS - row)
           // console.log("found top of shape", { row, col, y: this.y, maxHeight })
-          break
         }
         if (maxHeight !== 0) {
           break
