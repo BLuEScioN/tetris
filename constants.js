@@ -1,7 +1,7 @@
 const COLS = 10
 exports.COLS = COLS
 
-const ROWS = 8
+const ROWS = 100
 exports.ROWS = ROWS
 
 const KEY = {
@@ -13,57 +13,32 @@ const qTetromino = [
   [4, 4],
   [4, 4],
 ]
-// const zTetromino = [
-//   [7, 7, 0],
-//   [0, 7, 7],
-//   [0, 0, 0],
-// ]
+
 const zTetromino = [
   [7, 7, 0],
   [0, 7, 7],
 ]
-// const sTetromino = [
-//   [0, 5, 5],
-//   [5, 5, 0],
-//   [0, 0, 0],
-// ]
+
 const sTetromino = [
   [0, 5, 5],
   [5, 5, 0],
 ]
-// const tTetromino = [
-//   [0, 0, 0],
-//   [6, 6, 6],
-//   [0, 6, 0],
-// ]
+
 const tTetromino = [
   [6, 6, 6],
   [0, 6, 0],
 ]
-// const iTetromino = [
-//   [0, 0, 0, 0],
-//   [1, 1, 1, 1],
-//   [0, 0, 0, 0],
-//   [0, 0, 0, 0],
-// ]
+
 const iTetromino = [
   [1, 1, 1, 1],
 ]
-// const lTetromino = [
-//   [0, 3, 0],
-//   [0, 3, 0],
-//   [0, 3, 3],
-// ]
+
 const lTetromino = [
   [3, 0],
   [3, 0],
   [3, 3],
 ]
-// const jTetromino = [
-//   [0, 2, 0],
-//   [0, 2, 0],
-//   [2, 2, 0],
-// ]
+
 const jTetromino = [
   [0, 2],
   [0, 2],

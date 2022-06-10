@@ -16,13 +16,6 @@ class Piece {
 
   setStartingPosition(x) {
     this.x = x
-
-    // let leftMostCoordinate = this.getLeftMostCoordinate()
-    // console.log({ leftMostCoordinate })
-    // while (leftMostCoordinate-- > 0) {
-    //   console.log("moving starting position left 1")
-    //   this.move(moves[KEY.Left](this))
-    // }
   }
 
   getLeftMostCoordinate() {
