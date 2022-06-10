@@ -11,17 +11,13 @@ var rl = readline.createInterface({
 })
 
 rl.on("line", function (line) {
-  playTetris(
+  console.log(playTetris(
     line
       .trim()
       .split(",")
       .filter((line) => line !== "")
-  )
+  ))
 })
-
-for (const game of lines) {
-  console.log(playTetris(game))
-}
 
 function playTetris(moves) {
   const board = new Board()
